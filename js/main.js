@@ -6,6 +6,7 @@ $(function() {
   $('#verb').val('');
 
   $('#blanks form').submit(function(event){
+
     var person1Input = $('#person1').val();
     var person2Input = $('#person2').val();
     var animalInput = $('#animal').val();
