@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js">
+  </script>
+  <title>questions</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Fun Quiz</h1>
+        <div id="questions">
+          <form>
+            <div class="form-group">
+              <label for="userName">Enter Name</label>
+              <input type="text" id="userName"class="form-control">
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="number">Pick a number between 1 and 5</label>
+              <input type="number" id="number" min="1" max="5">
+            </div>
+            <div class="form-group">
+              <label for="color">What is your favorite color?</label>
+              <input type="color" id="color">
+            </div>
+          </form>
+          <button type="button" name="button" id="buttonQuestions">Submit</button>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" id="bookingConfirmation">
+        <h2>Booking was successful!</h2>
+        <p>Booked by: <span class="bookingUserName"></span></p>
+        <p>Time: <span class="date"></span> from <span class="startTime"></span> to <span class="endTime"></span></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

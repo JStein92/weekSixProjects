@@ -9,3 +9,15 @@
   margin: 15px;
   padding: 10px 10px 300px 10px;
 }
+#reciept{
+  display: none;
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+}
+#bookingConfirmation{
+  display: none;
+  background-color: silver;
+  padding: 10px;
+  margin: 10px;
+}
